@@ -1,0 +1,62 @@
+{
+  "title": "Creates a video analysis task for the specified video file.",
+  "operationId": "CreateTask",
+  "parameters": {
+    "taskName": "Replace this value with a string matching RegExp ^[a-zA-Z0-9][a-zA-Z0-9._-]*$",
+    "api-version": "2024-05-01-preview",
+    "body": {
+      "kind": "sceneDescription",
+      "videoUrl": "https://microsoft.com/a",
+      "authentication": {
+        "kind": "none",
+        "sas": "ygzddasubuqxyptlixrlnpj"
+      },
+      "taskConfiguration": {}
+    }
+  },
+  "responses": {
+    "201": {
+      "body": {
+        "name": "Replace this value with a string matching RegExp ^[a-zA-Z0-9][a-zA-Z0-9._-]*$",
+        "kind": "sceneDescription",
+        "createdDateTime": "2024-02-23T21:43:12.431Z",
+        "lastModifiedDateTime": "2024-02-23T21:43:12.431Z",
+        "status": "notStarted",
+        "error": {
+          "code": "ploxasozdgtovayz",
+          "message": "uyzdzcrdldxnhfupnbsrre",
+          "target": "qcsxnlgeoyed",
+          "details": [],
+          "innererror": {
+            "code": "mzdursezoonvzqmdnype",
+            "message": "aakriovldqwsoie"
+          }
+        },
+        "taskResult": {
+          "sceneDescriptions": [
+            {
+              "startTime": "ejexhfwlrzhchpctnmlhr",
+              "endTime": "xotwmjbdgwsf",
+              "description": "danpqvlyjpaxhtozy",
+              "sceneCount": 14
+            }
+          ],
+          "silenceIntervals": [
+            {
+              "startTime": "ruubs",
+              "endTime": "fslumqugifqdpyptskamhro"
+            }
+          ],
+          "transcriptSentences": [
+            {
+              "startTime": "nftlcdxelbhqubqpid",
+              "endTime": "upviqukw",
+              "transcript": "zjecxw"
+            }
+          ]
+        },
+        "eTag": "mljubisdsbhcmbvzpkoquxlyxvgriq"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Retrieves all documents.",
+  "operationId": "ListDocuments",
+  "parameters": {
+    "indexName": "ysknkftrnvamzaemk",
+    "api-version": "2024-05-01-preview"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {}
+        ]
+      }
+    }
+  }
+}

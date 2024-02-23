@@ -1,0 +1,56 @@
+{
+  "title": "Performs a text-based search.",
+  "operationId": "SearchByText",
+  "parameters": {
+    "indexName": "qmfuotnyivik",
+    "api-version": "2024-05-01-preview",
+    "body": {
+      "queryText": "odjjtgdqtinswvgdnmxjseua",
+      "filters": {
+        "stringFilters": [
+          {
+            "fieldName": "lwjbnrlii",
+            "values": [
+              "ouzopcdnkfweveg"
+            ]
+          }
+        ],
+        "datetimeFilters": [
+          {
+            "fieldName": "nrduewcstikytquktgnietfmomuxdadwxpf",
+            "startTime": "bgrlaikftitzu",
+            "endTime": "hfydlzejsbyolwle"
+          }
+        ],
+        "featureFilters": [
+          "vision"
+        ]
+      },
+      "moderation": true,
+      "top": 25,
+      "skip": 0,
+      "additionalIndexNames": [
+        "tuyalkkahxgsfucspdrmjeryferj"
+      ],
+      "disableMetadataSearch": true
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "documentId": "nfqweqkmzdb",
+            "documentKind": "bxtccsspmbjefvqt",
+            "start": "nfawffkn",
+            "end": "ugyejimlhuexxwr",
+            "best": "rkfm",
+            "confidence": 19,
+            "additionalMetadata": {}
+          }
+        ],
+        "nextLink": "bcodqprkzyl"
+      }
+    }
+  }
+}

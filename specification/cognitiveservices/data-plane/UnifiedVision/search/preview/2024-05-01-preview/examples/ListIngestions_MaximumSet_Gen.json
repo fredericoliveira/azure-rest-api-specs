@@ -1,0 +1,50 @@
+{
+  "title": "Retrieves all ingestions.",
+  "operationId": "ListIngestions",
+  "parameters": {
+    "indexName": "dpqylisdtlddlnkqctabwtxmdd",
+    "api-version": "2024-05-01-preview"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "name": "ejpdajtlznhqjfmt",
+            "state": "notStarted",
+            "error": {
+              "code": "ploxasozdgtovayz",
+              "message": "uyzdzcrdldxnhfupnbsrre",
+              "target": "qcsxnlgeoyed",
+              "details": [],
+              "innererror": {
+                "code": "mzdursezoonvzqmdnype",
+                "message": "aakriovldqwsoie"
+              }
+            },
+            "batchName": "vcvorsohczlimd",
+            "createdDateTime": "2024-02-23T21:43:12.027Z",
+            "lastModifiedDateTime": "2024-02-23T21:43:12.027Z",
+            "fileStatusDetails": [
+              {
+                "lastUpdateTime": "2024-02-23T21:43:12.027Z",
+                "documentId": "yusarrcoblrmohzlicrdftupngkg",
+                "documentUrl": "https://microsoft.com/a",
+                "succeeded": true,
+                "error": {
+                  "code": "osmsdroy",
+                  "message": "figcfltuqgxfljklzb",
+                  "innerError": {
+                    "code": "cvuobuhoypmmhligdhflrmytyatcdi",
+                    "message": "okcqkhrwdvlgeuryeuzxz"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "nextLink": "yevuigrieewwpdflomfjumok"
+      }
+    }
+  }
+}

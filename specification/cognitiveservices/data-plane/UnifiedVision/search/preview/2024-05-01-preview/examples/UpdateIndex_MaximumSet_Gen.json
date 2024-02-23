@@ -1,0 +1,49 @@
+{
+  "title": "Updates an index.",
+  "operationId": "UpdateIndex",
+  "parameters": {
+    "indexName": "nsbdmzqnoqgrhmwjodtohsabfx",
+    "api-version": "2024-05-01-preview",
+    "body": {
+      "metadataSchema": {
+        "fields": [
+          {
+            "name": "ghirxvjqmkeajoa",
+            "searchable": true,
+            "filterable": true,
+            "type": "string"
+          }
+        ]
+      },
+      "userData": {}
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "name": "qithsxgufzcfvdyaolfovwxpmphof",
+        "metadataSchema": {
+          "fields": [
+            {
+              "name": "ghirxvjqmkeajoa",
+              "searchable": true,
+              "filterable": true,
+              "type": "string"
+            }
+          ]
+        },
+        "userData": {},
+        "features": [
+          {
+            "name": "vision",
+            "modelVersion": "kksxgxaogwwfpip",
+            "domain": "generic"
+          }
+        ],
+        "eTag": "caktfnkczprfcnbeixbekfxvlkii",
+        "createdDateTime": "2024-02-23T21:43:11.471Z",
+        "lastModifiedDateTime": "2024-02-23T21:43:11.471Z"
+      }
+    }
+  }
+}

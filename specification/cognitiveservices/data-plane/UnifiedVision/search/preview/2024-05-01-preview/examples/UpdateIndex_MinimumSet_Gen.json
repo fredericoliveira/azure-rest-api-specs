@@ -1,0 +1,18 @@
+{
+  "title": "Updates an index.",
+  "operationId": "UpdateIndex",
+  "parameters": {
+    "indexName": "bkcjolgvzod",
+    "api-version": "2024-05-01-preview",
+    "body": {}
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "eTag": "caktfnkczprfcnbeixbekfxvlkii",
+        "createdDateTime": "2024-02-23T21:43:11.471Z",
+        "lastModifiedDateTime": "2024-02-23T21:43:11.471Z"
+      }
+    }
+  }
+}

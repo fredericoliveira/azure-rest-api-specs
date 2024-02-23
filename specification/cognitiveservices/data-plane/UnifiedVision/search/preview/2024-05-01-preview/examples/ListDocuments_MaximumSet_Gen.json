@@ -1,0 +1,37 @@
+{
+  "title": "Retrieves all documents.",
+  "operationId": "ListDocuments",
+  "parameters": {
+    "indexName": "xadhurmjriacgomcynatptrol",
+    "$skip": 1451502672,
+    "$top": 13,
+    "api-version": "2024-05-01-preview"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "documentId": "psuonpkfsv",
+            "documentUrl": "https://microsoft.com/a",
+            "metadata": {},
+            "error": {
+              "code": "ploxasozdgtovayz",
+              "message": "uyzdzcrdldxnhfupnbsrre",
+              "target": "qcsxnlgeoyed",
+              "details": [],
+              "innererror": {
+                "code": "mzdursezoonvzqmdnype",
+                "message": "aakriovldqwsoie"
+              }
+            },
+            "createdDateTime": "2024-02-23T21:43:12.231Z",
+            "lastModifiedDateTime": "2024-02-23T21:43:12.231Z",
+            "userData": {}
+          }
+        ],
+        "nextLink": "npiwmberavaxg"
+      }
+    }
+  }
+}

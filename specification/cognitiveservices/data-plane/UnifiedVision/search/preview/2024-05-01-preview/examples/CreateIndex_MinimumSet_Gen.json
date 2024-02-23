@@ -1,0 +1,18 @@
+{
+  "title": "Creates an index for the documents to be ingested.",
+  "operationId": "CreateIndex",
+  "parameters": {
+    "indexName": "ggkqohwilcxazvnjutkuzchopf",
+    "api-version": "2024-05-01-preview",
+    "body": {}
+  },
+  "responses": {
+    "201": {
+      "body": {
+        "eTag": "caktfnkczprfcnbeixbekfxvlkii",
+        "createdDateTime": "2024-02-23T21:43:11.471Z",
+        "lastModifiedDateTime": "2024-02-23T21:43:11.471Z"
+      }
+    }
+  }
+}

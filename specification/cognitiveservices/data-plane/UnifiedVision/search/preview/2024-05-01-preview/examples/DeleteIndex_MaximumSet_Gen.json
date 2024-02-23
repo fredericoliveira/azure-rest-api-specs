@@ -1,0 +1,11 @@
+{
+  "title": "Deletes an index.",
+  "operationId": "DeleteIndex",
+  "parameters": {
+    "indexName": "rzkcp",
+    "api-version": "2024-05-01-preview"
+  },
+  "responses": {
+    "204": {}
+  }
+}

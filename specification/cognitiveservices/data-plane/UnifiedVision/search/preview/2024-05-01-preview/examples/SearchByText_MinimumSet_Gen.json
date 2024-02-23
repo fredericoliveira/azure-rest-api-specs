@@ -1,0 +1,24 @@
+{
+  "title": "Performs a text-based search.",
+  "operationId": "SearchByText",
+  "parameters": {
+    "indexName": "pxmxwocba",
+    "api-version": "2024-05-01-preview",
+    "body": {
+      "queryText": "odjjtgdqtinswvgdnmxjseua",
+      "skip": 0,
+      "disableMetadataSearch": true
+    }
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "value": [
+          {
+            "confidence": 19
+          }
+        ]
+      }
+    }
+  }
+}
